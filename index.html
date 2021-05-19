@@ -9,13 +9,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Eater's Stop</title>
 </head>
 
 <body>
-    <header>
+
 
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4fixed-top">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
@@ -33,7 +33,7 @@
                     <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
                 </ul> -->
 
-            </div>
+            <!-- </div> -->
         </header>
         <main>
             <section>
@@ -47,10 +47,10 @@
                             <h1 class="display-4 fw-bold lh-1 change_content">
                                 </p>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                    <button type="button" class="btn btn-outline-primary btn-lg px-4"
-                                        onclick="loginSec()">Login</button>
-                                    <button type="button" class="btn btn-outline-danger btn-lg px-4"
-                                        onclick="signSec()">Signup</button>
+                                    <button id="login-btn-sec" type="button"
+                                        class="btn btn-outline-primary btn-lg px-4">Login</button>
+                                    <button id="signup-btn-sec" type="button"
+                                        class="btn btn-outline-danger btn-lg px-4">Signup</button>
 
                                 </div>
                         </div>
@@ -69,12 +69,12 @@
                             <div class="col-md-10 mx-auto col-lg-5">
                                 <form class="p-4 p-md-5 border rounded-3 bg-light">
                                     <div class="form-floating mb-3">
-                                        <input type="email" class="form-control" id="floatingInput"
+                                        <input type="email" class="form-control" id="floatingInput1"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input type="password" class="form-control" id="floatingPassword"
+                                        <input type="password" class="form-control" id="floatingPassword1"
                                             placeholder="Password">
                                         <label for="floatingPassword">Password</label>
                                     </div>
@@ -101,17 +101,18 @@
                             <div class="col-lg-7 text-center text-lg-start">
                                 <h1 class="display-4 fw-bold lh-1 mb-3">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tempor
-                                    nisi eu vulputate.</p>
+                                    nisi eu vulputate.
+                                </h1>
                             </div>
                             <div class="col-md-10 mx-auto col-lg-5">
                                 <form class="p-4 p-md-5 border rounded-3 bg-light">
                                     <div class="form-floating mb-3">
-                                        <input type="email" class="form-control" id="floatingInput"
+                                        <input type="email" class="form-control" id="floatingInput2"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input type="password" class="form-control" id="floatingPassword"
+                                        <input type="password" class="form-control" id="floatingPassword2"
                                             placeholder="Password">
                                         <label for="floatingPassword">Password</label>
                                     </div>
@@ -130,10 +131,115 @@
                     </div>
                 </div>
             </section>
+            <section>
+                <div class="d-flex justify-content-between text-center bg-info">
+                    <div class="m-1">
+                        <img class="img-fluid" src="images/icons/icons8-tracking-100.png" width="200" height="200"
+                            alt="treacking">
+                        <h1>Live Order Tracking</h1>
+                        <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+                    </div>
+
+                    <div class="m-1">
+                        <img class="img-fluid" src="images/icons/icons8-delivery-scooter-64.png" width="200"
+                            height="200" alt="treacking">
+                        <h1>Live Order Tracking</h1>
+                        <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+                    </div>
+                    <div class="m-1">
+                        <img class="img-fluid" src="images/icons/icons8-purchase-order-64.png" width="200" height="200"
+                            alt="treacking">
+                        <h1>Live Order Tracking</h1>
+                        <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <h1 class="display-4 fw-bold lh-1 mb-3 m-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tempor
+                            nisi eu vulputate.
+                        </h1>
+                        <div class="d-flex justify-content-around p-5">
+                            <a name="" id="" class="btn btn-dark btn-outline-dark text-light fs-3" href="#"
+                                role="button"><i class="fa fa-android" aria-hidden="true"></i> And's Version</a>
+                            <a name="" id="" class="btn btn-dark btn-outline-dark text-light fs-3" href="#"
+                                role="button"><i class="fa fa-apple" aria-hidden="true"></i> IOS Version</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <img class="img-fluid" src="/images/cala-w6ftFbPCs9I-unsplash.jpg" width="520" alt="" sizes=""
+                            srcset="">
+                    </div>
+
+                </div>
+            </section>
         </main>
+        <footer class="bg-dark">
+            <div class="row row-cols-lg-4 row-cols-sm-6">
+                <div class="text-center pt-3">
+                    <div class="m-3">
+                        <a name="" id="" class="btn btn-dark btn-outline-success text-light fs-3" href="#"
+                            role="button"><i class="fa fa-android" aria-hidden="true"></i> And's Version</a>
+                    </div>
+                    <div class="m-3">
+                        <a name="" id="" class="btn btn-dark btn-outline-success text-light fs-3" href="#"
+                            role="button"><i class="fa fa-apple" aria-hidden="true"></i> IOS Version</a>
+                    </div>
+                </div>
+                <div class="text-light text-center p-3">
+                    <h3>Company</h3>
+                    <div class="text-secondary">
+                        <p>About us</p>
+                        <p>Team</p>
+                        <p>Career</p>
+                        <p>Best deals</p>
+                        <p>Offers</p>
+
+                    </div>
+                </div>
+                <div class="text-light text-center p-3">
+                    <h3>Contact</h3>
+                    <div class="text-secondary">
+                        <p>Help</p>
+                        <p>Support</p>
+                        <p>Partner with us</p>
+                        <p>Ride with us</p>
+
+                    </div>
+                </div>
+                <div class="text-light text-center p-3">
+                    <h3>Legal</h3>
+                    <div class="text-secondary">
+                        <p>Terms and conditions</p>
+                        <p>Refund and policies</p>
+                        <p>Privicy and policy</p>
+                        <p>Cookies and policy</p>
+                        <p>Offer Terms</p>
+                        <p>Phishing and fraud</p>
+
+                    </div>
+                </div>
+            </div>
+            <hr class="featured-divider bg-light">
+            <div class="row row-cols-lg-12 row-cols-sm-4 text-center">
+                <span class="fs-3 fw-bolder text-light px-5">Eater's Stop</span>
+                <div class="text-light fs-3">
+                    &copy; Ankush
+                </div>
+                <div class="text-light fs-3">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i> 
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i> 
+                    <i class="fa fa-tumblr-square" aria-hidden="true"></i>   
+                </div>
+                <a class="fs-3" href="#login-section">Go to Top</a>
+            </div>
+            
+        </footer>
 
         <!-- Optional JavaScript; choose one of the two! -->
-
+        <script src="scripts.js"></script>
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">

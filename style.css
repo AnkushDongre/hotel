@@ -21,3 +21,9 @@
 	80%{content: "Food is always tasty when it has ingrident of love in it.";}
 	100%{content: "Don't wast food it might be an one time meal for someone.";}
 }
+
+
+.card-text{
+    font-size: large;
+    font-weight: bold;
+}
