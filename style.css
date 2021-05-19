@@ -1,0 +1,23 @@
+.login-section{
+    widows: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) , url('./images/food1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+}
+
+.change_content:after{
+	content:'';
+	color:white;
+	animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext{
+	0%{content: "We are the platform for your tastiest food ever.";}
+	20%{content: "Tasty food can be eaten continuously and daily.";}
+	35%{content: "The secret path to someone's heart is through his stomach.";}
+	60%{content: "Food is diet Food is light Food is right and food is life.";}
+	80%{content: "Food is always tasty when it has ingrident of love in it.";}
+	100%{content: "Don't wast food it might be an one time meal for someone.";}
+}

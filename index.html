@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Eater's Stop</title>
+</head>
+
+<body>
+    <header>
+
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4fixed-top">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4 fw-bolder text-black-50">Eater's Stop</span>
+            </a>
+
+            <!-- <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#price" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#FAQ" class="nav-link">FAQs</a></li>
+                    <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+                </ul> -->
+
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <strong>Don't Worry!</strong> We bring you a safe dilivery to your doorstape in this pandamic.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="container-fluid login-section text-light" id="login-section">
+                    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border">
+                        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                            <h1 class="display-4 fw-bold lh-1 change_content">
+                                </p>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                    <button type="button" class="btn btn-outline-primary btn-lg px-4"
+                                        onclick="loginSec()">Login</button>
+                                    <button type="button" class="btn btn-outline-danger btn-lg px-4"
+                                        onclick="signSec()">Signup</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container-fluid signup-from-section" id="signup-form-section">
+                    <div class="container col-xl-10 col-xxl-8 px-4">
+                        <div class="row align-items-center g-lg-5 py-5">
+                            <div class="col-lg-7 text-center text-lg-start">
+                                <h1 class="display-4 fw-bold lh-1 mb-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tempor
+                                    nisi eu vulputate.</p>
+                            </div>
+                            <div class="col-md-10 mx-auto col-lg-5">
+                                <form class="p-4 p-md-5 border rounded-3 bg-light">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" id="floatingPassword"
+                                            placeholder="Password">
+                                        <label for="floatingPassword">Password</label>
+                                    </div>
+                                    <div class="checkbox mb-3">
+                                        <label>
+                                            <input type="checkbox" value="remember-me"> Remember me
+                                        </label>
+                                    </div>
+                                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign In</button>
+                                    <hr class="my-4">
+                                    <small class="text-muted">By clicking Sign up, you agree to the terms of
+                                        use.</small>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="login-from-section" id="login-form-section">
+                <div class="container-fluid">
+                    <div class="container col-xl-10 col-xxl-8 px-4">
+                        <div class="row align-items-center g-lg-5 py-5">
+                            <div class="col-lg-7 text-center text-lg-start">
+                                <h1 class="display-4 fw-bold lh-1 mb-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tempor
+                                    nisi eu vulputate.</p>
+                            </div>
+                            <div class="col-md-10 mx-auto col-lg-5">
+                                <form class="p-4 p-md-5 border rounded-3 bg-light">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" id="floatingPassword"
+                                            placeholder="Password">
+                                        <label for="floatingPassword">Password</label>
+                                    </div>
+                                    <div class="checkbox mb-3">
+                                        <label>
+                                            <input type="checkbox" value="remember-me"> Remember me
+                                        </label>
+                                    </div>
+                                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                                    <hr class="my-4">
+                                    <small class="text-muted">By clicking Sign up, you agree to the terms of
+                                        use.</small>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        </script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
