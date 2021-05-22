@@ -1,5 +1,8 @@
+body{
+	margin: 20px;
+}
 .login-section{
-    widows: 100%; height: 100vh;
+    widows: 100%; height: 70vh;
 	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) , url('./images/food1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -54,3 +57,36 @@
   #myBtn:hover {
 	background-color: #555;
   }
+
+  .card{
+	border: none;
+  }
+
+  .card img:hover{
+	width: 90%;
+
+  }
+  .card:hover{
+	  color: darkslategrey;
+	  background-color: azure;
+  }
+
+.social .fa{
+	color: royalblue;
+	background: violet;
+	padding: 5px;
+}
+
+.social .fa:hover{
+	color: #555;
+	background-color: aliceblue;
+}
+
+header span{
+	font-family: cursive;
+	font-size: xx-large;
+	font-weight: 900;
+	font-style: normal;
+
+	text-shadow: #555 2px;
+}
